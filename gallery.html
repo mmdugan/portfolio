@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+  <title>Michelle Dugan Design</title>
+  <link href="gallery.css"  rel="stylesheet" type="text/css" media="screen" />
+
+
+<div>
+  <span class="fade">portfolio</span>
+</div>
+
+
+<style>
+div.gallery
+  border: 5px solid pink;
+}
+
+div.gallery: hover {
+  border: 5px solid blue;
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width:24.99999%;
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+  width: 100%;}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="caitlin2.png">
+      <img src="caitlin2.png" alt="BeatnikBold"
+    width="300" height="200">
+  </a>
+<div class="desc">Collab with BeatnikBold Fall2k17 Promo Video</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="bella.png">
+    <img src="bella.png" alt="Bella"
+    width="300" height="200">
+  </a>
+<div class="desc">Bella Hadid Portrait</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="christie.png">
+    <img src="christie.png" alt="Bella"
+    width="300" height="200">
+  </a>
+<div class="desc">Christie Molloy Exhibition Poster</div>
+</div>
+</div>
+
+</body>
+</html>

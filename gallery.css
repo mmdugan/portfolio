@@ -1,0 +1,65 @@
+.fade{
+  color: magenta;
+  transition: all 1s ease-out;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 75pt;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.fade:hover{
+  color: cyan;
+  font-size: 100pt;
+}
+
+div{
+  margin-left: 30pt;
+  margin-top: 20pt;
+}
+
+
+
+div.gallery {
+  margin left: 30px;
+  border: 5px solid magenta;
+  float: left;
+  width: 300px;
+
+}
+
+div.gallery:hover {
+  border: 5px solid blue;
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+    font-family: helvetica, arial, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.responsive{
+  padding: 30px;
+  float: left;
+  width:24.99999%;
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+  width: 100%;}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

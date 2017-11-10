@@ -1,0 +1,39 @@
+.fade{
+  color: blue;
+  transition: all 1s ease-out;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 75pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fade:hover{
+  color: cyan;
+  font-size: 100pt;
+
+}
+
+h1{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 100pt;
+  color: blue;
+
+}
+
+h2{
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  font-size: 16pt;
+  float: left;
+  margin-left: 400pt;
+}
+
+div{
+  margin-left: 20pt;
+  margin-top: 20pt;
+
+}
+
+html{
+  background-color: magenta;
+}
